@@ -51,6 +51,17 @@ button:hover {
   transition: var(--smooth);
 }
 
+/* DARK MODE */
+.btn__dark-mode{
+  padding: 6px;
+  font-size: 8px;
+}
+
+.dark-mode button{
+  background-color: black;
+  color: white;
+}
+
 /* === Overlay Menu Mobile=== */
 #overlay {
   position: fixed;
@@ -75,7 +86,7 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px 0;
 }
