@@ -52,12 +52,12 @@ button:hover {
 }
 
 /* DARK MODE */
-.btn__dark-mode{
+.btn__dark-mode {
   padding: 6px;
   font-size: 8px;
 }
 
-.dark-mode button{
+.dark-mode button {
   background-color: black;
   color: white;
 }
@@ -82,6 +82,7 @@ button:hover {
 header {
   position: absolute;
   width: 100%;
+  z-index: 10;
 }
 
 .navbar {
@@ -233,7 +234,7 @@ header {
   z-index: -1;
 }
 
-.banner__img::before{
+.banner__img::before {
   content: "";
   position: absolute;
   top: 0;
@@ -305,10 +306,10 @@ header {
     margin: 0 100px 0;
     padding: 60px 10px 0;
   }
-  .banner__img img{
+  .banner__img img {
     border-radius: 50%;
   }
-  .banner__img::before{
+  .banner__img::before {
     display: none;
   }
 }
@@ -405,9 +406,9 @@ header {
   margin: 2em 0;
 }
 
-.works__img--single img{
+.works__img--single img {
   border-radius: 20px;
-} 
+}
 
 .works__btn {
   text-align: center;
@@ -432,7 +433,7 @@ header {
     width: 35%;
   }
 
-  .works__img--single img{
+  .works__img--single img {
     border-radius: 30px;
   }
 }
@@ -484,7 +485,6 @@ header {
   color: var(--gray);
 }
 
-
 @media (min-width: 62em) {
   .footer__img {
     position: absolute;
@@ -493,7 +493,7 @@ header {
     width: 60%;
   }
 
-  .footer__img::before{
+  .footer__img::before {
     display: none;
   }
 
