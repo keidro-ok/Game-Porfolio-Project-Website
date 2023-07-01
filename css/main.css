@@ -52,15 +52,20 @@ button:hover {
   transition: var(--smooth);
 }
 
-/* DARK MODE */
+/* Light MODE */
 .btn__dark-mode {
-  padding: 6px;
-  font-size: 8px;
+  padding: 10px;
+  font-size: 10px;
 }
 
 .dark-mode button {
   background-color: yellowgreen;
   color: black;
+}
+
+.dark-mode i{
+  color: yellowgreen;
+  transition: var(--smooth);
 }
 
 /* === Overlay Menu Mobile=== */
@@ -99,6 +104,7 @@ header {
   height: 57px;
   object-fit: cover;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 /* menu */
